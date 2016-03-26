@@ -14,6 +14,7 @@ body{
 	overflow:scroll;
 	direction:rtl;
 	font-size:15vh;
+	white-space:nowrap;
 }
 .keys{
 	position:absolute;
