@@ -25,5 +25,5 @@ commands={
 }
 $('.col').click(function(){
 	$(this).text().match(/[A-Z0-9.]/)?stack[stack.length-1]=stack[stack.length-1]==='0'?$(this).text():stack[stack.length-1]+$(this).text():commands[$(this).text()]()
-	$('.disp').html(stack.slice(0).reverse().join(' '))
+	$('.disp').html(stack.join(' ')).scrollLeft($(document).outerWidth())
 })
