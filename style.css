@@ -3,18 +3,19 @@
 }
 body{
 	margin:0;
-	
+	background-color:#46494c;
 }
 .disp{
 	position:absolute;
 	height:20%;
 	width:96%;
+	left:0;
 	top:0;
-	right:4%;
 	overflow:scroll;
 	direction:rtl;
 	font-size:15vh;
 	white-space:nowrap;
+	color:white;
 }
 .keys{
 	position:absolute;
@@ -22,6 +23,7 @@ body{
 	width:100%;
 	bottom:0;
 	overflow-y:scroll;
+	background-color:white;
 }
 .row{
 	height:16.6%;
@@ -32,7 +34,7 @@ body{
 	display:inline-block;
 	width:25%;
 	height:100%;
-	border:1px solid black;
+	border:1px solid #46494c;
 	text-align:center;
 	font-size:10vh;
 }
