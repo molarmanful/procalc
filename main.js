@@ -13,7 +13,7 @@ commands={
 	"&":function(){if(stack.length>1)stack.push(BigInteger(p(stack.pop()).toString()&p(stack.pop()).toString()).toString(base))},
 	"|":function(){if(stack.length>1)stack.push(BigInteger(p(stack.pop()).toString()|p(stack.pop()).toString()).toString(base))},
 	"^":function(){if(stack.length>1)stack.push(BigInteger(p(stack.pop()).toString()^p(stack.pop()).toString()).toString(base))},
-	"~":function(){stack.push(p(stack.pop()).negate().prev())},
+	"~":function(){stack.push(p(stack.pop()).negate().prev().toString(base))},
 	"«":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push((eval('p(y)'+'.multiply(2)'.repeat(p(x)))).toString(base))},
 	"»":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push((eval('p(y)'+'.quotient(2)'.repeat(p(x)))).toString(base))},
 	"ß":function(){ob=base,base=p(stack.pop()).toString(),stack=stack.map(function(x){return BigInteger.parse(x,ob).toString(base)})},
