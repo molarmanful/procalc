@@ -34,4 +34,3 @@ procalc does math in base-36 by default, but can be converted to other bases. pr
 
 # Credits
 - https://github.com/jtobey/javascript-bignum
-- 
