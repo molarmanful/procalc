@@ -23,7 +23,7 @@ commands={
 	"ß":function(){if(stack.length)ob=base,base=p(stack.pop()).toString(),stack=stack.map(function(x){return BigInteger.parse(x,ob).toString(base)})},
 	"¹":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push(p(y).pow(p(x)).toString(base))},
 	"©":function(){if(stack.length>1)stack.push(stack[stack.length-stack.pop()-2])},
-	"⍗":function(){if(stack.length>1)stack.splice(stack.length-stack.pop()-2,1)},
+	"d":function(){if(stack.length>1)stack.splice(stack.length-stack.pop()-2,1)},
 	"@":function(){if(stack.length>1)stack.push(stack.splice(stack.length-stack.pop()-2,1))},
 	"ª":function(){if(stack.length>1)stack.splice(stack.length-stack.pop()-2,0,stack.pop())},
 }
