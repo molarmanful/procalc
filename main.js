@@ -28,7 +28,7 @@ commands={
 	"ª":function(){if(stack.length>1)stack.splice(stack.length-stack.pop()-2,0,stack.pop())},
 }
 FastClick.attach(document.body);
-$('.col').on('touchend',function(){
+$('.col').on('click',function(){
 	$(this).text().match(/[A-Z0-9.]/)?stack[stack.length-1]=stack[stack.length-1]==='0'?$(this).text():stack[stack.length-1]+$(this).text():commands[$(this).text()]()
 	$('.disp').html(stack.join(' ')).scrollLeft($(document).outerWidth())
 })
