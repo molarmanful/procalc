@@ -22,7 +22,7 @@ body{
 	height:80%;
 	width:100%;
 	bottom:0;
-	overflow-x:hidden;
+	overflow-y:scroll;
 	background-color:white;
 }
 .row{
@@ -37,4 +37,5 @@ body{
 	border:1px solid #46494c;
 	text-align:center;
 	font-size:10vh;
+	color:#46494c;
 }
