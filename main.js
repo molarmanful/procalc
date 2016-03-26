@@ -24,6 +24,6 @@ commands={
 	"ª":function(){stack.splice(stack.length-stack.pop()-2,0,stack.pop())},
 }
 $('.col').click(function(){
-	$(this).text().match(/[A-Z0-9.]/)?stack[stack.length-1]=stack[stack.length-1]=='0'?stack[stack.length-1]+$(this).text():$(this).text():commands[$(this).text()]()
+	$(this).text().match(/[A-Z0-9.]/)?stack[stack.length-1]=stack[stack.length-1]==='0'?$(this).text():stack[stack.length-1]+$(this).text():commands[$(this).text()]()
 	$('.disp').html(stack.slice(0).reverse().join(' '))
 })
