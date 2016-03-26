@@ -2,11 +2,11 @@ stack=["0"]
 base=36
 p=function(x){return BigInteger.parse(x,base)};
 commands={
-	"$":function(){if(stack.length)stack.push(stack[stack.length-1])},
-	"⍖":function(){if(stack.length)stack.pop()},
+	"ǁ":function(){if(stack.length)stack.push(stack[stack.length-1])},
+	"ǂ":function(){if(stack.length)stack.pop()},
 	"¤":function(){if(stack.length>1)stack.push(stack[stack.length-2])},
-	"⎌":function(){stack[stack.length-1]=stack[stack.length-1].split(''),stack[stack.length-1].pop(),stack[stack.length-1].join('').length?(stack[stack.length-1]=stack[stack.length-1].join('')):stack.pop()},
-	"⎚":function(){stack=["0"]},
+	"u":function(){stack[stack.length-1]=stack[stack.length-1].split(''),stack[stack.length-1].pop(),stack[stack.length-1].join('').length?(stack[stack.length-1]=stack[stack.length-1].join('')):stack.pop()},
+	"c":function(){stack=["0"]},
 	"n":function(){stack.push("0")},
 	"+":function(){if(stack.length>1)stack.push(p(stack.pop()).add(p(stack.pop())).toString(base))},
 	"-":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push(p(y).subtract(p(x)).toString(base))},
