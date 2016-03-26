@@ -3,7 +3,7 @@
 }
 body{
 	margin:0;
-	background-color:#46494c;
+	background-color:#f6f6f6;
 }
 .disp{
 	position:absolute;
@@ -14,7 +14,7 @@ body{
 	overflow:scroll;
 	font-size:15vh;
 	white-space:nowrap;
-	color:white;
+	color:#bababa;
 	text-align:right;
 }
 .keys{
@@ -34,10 +34,10 @@ body{
 	display:inline-block;
 	width:25%;
 	height:100%;
-	border:1px solid #46494c;
+	border:1px solid #eeeeee;
 	text-align:center;
 	font-size:10vh;
-	color:#46494c;
+	color:#bababa;
 }
 .ao{
 	color:#33cc33;
