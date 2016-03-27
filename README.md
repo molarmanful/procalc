@@ -10,10 +10,10 @@ procalc does math in base-36 by default, but can be converted to other bases. pr
 - `¤`: Duplicate second stack item from top.
 - `u`: Delete rightmost digit from top stack item.
 - `c`: Clear stack.
-- `©`: Duplicate _n_th stack item from top.
-- `d`: Drop _n_th stack item from top.
-- `@`: Roll _n_th stack item from top to the top.
-- `ª`: Roll top stack item to the _n_th stack item from the top.
+- `©`: Duplicate *n*th stack item from top.
+- `d`: Drop *n*th stack item from top.
+- `@`: Roll *n*th stack item from top to the top.
+- `ª`: Roll top stack item to the *n*th stack item from the top.
 - `n`: Push a number, initialized to 0, to the stack.
 - `0-9, A-Z`: Concatenate the digit to the top stack item, casting out leading zeroes.
 - `+-×÷%^`: Pop 2 stack items and add/ subtract/ multiply/ div/ mod/ pow them.
