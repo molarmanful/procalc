@@ -1,5 +1,7 @@
 # procalc
 An arbitrary-precision calculator web app created specifically to benefit programmers. It uses a stack and has several other features that allow it to calculate problems that mere mortal calculators could never do. Made at GunnHacks 2016.
+# Installation
+You can either visit the webpage using a modern web browser, or (even better) add the calculator to your home screen using a mobile device.
 # Basics
 procalc does math in base-36 by default, but can be converted to other bases. procalc also works with arbitrary-precision _integers_, meaning that it cannot work with floating-point numbers. The calculator displays the stack items in order from bottom to top, with the top item considered to be the result by default.
 # Symbols
