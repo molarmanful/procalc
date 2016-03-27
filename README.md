@@ -1,5 +1,5 @@
 # procalc
-An arbitrary-precision calculator web app created specifically to benefit programmers. It uses a stack and has several other features that allow it to calculate problems that mere mortal calculators could never do. Made at GunnHacks 2016.
+An arbitrary-precision calculator web app created specifically to benefit programmers. It uses a stack and has several other features that allow it to calculate problems that mere mortal calculators could never do. Winner of Best Developer Tool and Best Domain Name at GunnHacks 2016.
 # Installation
 You can either visit the webpage using a modern web browser, or (even better) add the calculator to your home screen using a mobile device.
 # Basics
