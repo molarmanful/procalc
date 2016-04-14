@@ -10,7 +10,7 @@ commands={
 	"n":function(){stack.push("0")},
 	"+":function(){if(stack.length>1)stack.push(p(stack.pop()).add(p(stack.pop())).toString(base))},
 	"-":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push(p(y).subtract(p(x)).toString(base))},
-	"×":function(){if(stack.length>1)stack.push(p(stack.pop()).add(p(stack.pop())).toString(base))},
+	"×":function(){if(stack.length>1)stack.push(p(stack.pop()).multiply(p(stack.pop())).toString(base))},
 	"÷":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push(p(y).quotient(p(x)).toString(base))},
 	"%":function(){if(stack.length>1)x=stack.pop(),y=stack.pop(),stack.push(p(y).remainder(p(x)).toString(base))},
 	"±":function(){if(stack.length)stack.push(p(stack.pop()).negate().toString(base))},
