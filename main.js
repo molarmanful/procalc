@@ -1,5 +1,5 @@
 stack=["0"]
-base=36
+base=10
 p=function(x){return BigInteger.parse(x,base)};
 commands={
 	"ǁ":function(){if(stack.length)stack.push(stack[stack.length-1])},
