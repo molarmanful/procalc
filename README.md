@@ -16,7 +16,7 @@ procalc does math in base-36 by default, but can be converted to other bases. pr
 - `ª`: Roll top stack item to the *n*th stack item from the top.
 - `n`: Push a number, initialized to 0, to the stack.
 - `0-9, A-Z`: Concatenate the digit to the top stack item, casting out leading zeroes.
-- `+-×÷%^`: Pop 2 stack items and add/ subtract/ multiply/ div/ mod/ pow them.
+- `+-×÷%¹`: Pop 2 stack items and add/ subtract/ multiply/ div/ mod/ pow them.
 - `&|^«»`: Pop 2 stack items and perform bitwise AND/OR/XOR/LSHIFT/RSHIFT on them.
 - `±`: Negate top stack item.
 - `~`: Bitwise negate top stack item.
